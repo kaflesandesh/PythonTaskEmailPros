@@ -1,0 +1,11 @@
+name,correct,incorrect
+DNS lookup,31,25
+block_from,26,10
+block_to,8,3
+browser,31,20
+contacts,48,17
+flow_search,34,15
+mails_received_from,42,5
+mails_sent_to,33,6
+unblock_from,3,1
+unblock_to,2,1

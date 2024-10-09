@@ -1,0 +1,20 @@
+{"participant_id": 1, "address": "kathy@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 1, "address": "kathy@mail.uni.ex", "description": "", "reach_milestone": "email_kathy", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 2, "address": "lisa.grant@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 2, "address": "lisa.grant@mail.uni.ex", "description": "", "reach_milestone": "email_lisa", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 3, "address": "peter.quinn@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 3, "address": "peter.quinn@mail.uni.ex", "description": "", "reach_milestone": "email_peter", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 4, "address": "doe@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 4, "address": "doe@mail.uni.ex", "description": "", "reach_milestone": "email_doe", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 5, "address": "jane.taylor@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 5, "address": "jane.taylor@mail.uni.ex", "description": "", "reach_milestone": "email_jane", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 6, "address": "cloud@uni.ex", "team_id": null, "definition_address": {"email_address_id": 6, "address": "cloud@uni.ex", "description": "", "reach_milestone": "email_cloud", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 7, "address": "harris@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 7, "address": "harris@mail.uni.ex", "description": "", "reach_milestone": "email_harris", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 8, "address": "dpo@mail.uni.ex", "team_id": null, "definition_address": {"email_address_id": 8, "address": "dpo@mail.uni.ex", "description": "", "reach_milestone": "email_dpo", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 9, "address": "instructors@help.com", "team_id": null, "definition_address": {"email_address_id": 9, "address": "instructors@help.com", "description": "", "reach_milestone": "email_instructors", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 10, "address": "abuse@freemail.ex", "team_id": null, "definition_address": {"email_address_id": 10, "address": "abuse@freemail.ex", "description": "", "reach_milestone": "email_freemail", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 11, "address": "it_department@mail.ex", "team_id": null, "definition_address": {"email_address_id": 11, "address": "it_department@mail.ex", "description": "", "reach_milestone": "email_it_department", "team_visible": null}, "exercise_id": 1}
+{"participant_id": 12, "address": "team1@mail.com", "team_id": 1, "definition_address": null, "exercise_id": 1}
+{"participant_id": 13, "address": "team2@mail.com", "team_id": 2, "definition_address": null, "exercise_id": 1}
+{"participant_id": 14, "address": "team3@mail.com", "team_id": 3, "definition_address": null, "exercise_id": 1}
+{"participant_id": 15, "address": "team4@mail.com", "team_id": 4, "definition_address": null, "exercise_id": 1}
+{"participant_id": 16, "address": "team5@mail.com", "team_id": 5, "definition_address": null, "exercise_id": 1}
+{"participant_id": 17, "address": "team6@mail.com", "team_id": 6, "definition_address": null, "exercise_id": 1}
+{"participant_id": 18, "address": "team7@mail.com", "team_id": 7, "definition_address": null, "exercise_id": 1}
+{"participant_id": 19, "address": "team8@mail.com", "team_id": 8, "definition_address": null, "exercise_id": 1}
+{"participant_id": 20, "address": "team9@mail.com", "team_id": 9, "definition_address": null, "exercise_id": 1}

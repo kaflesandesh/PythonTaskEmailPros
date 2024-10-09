@@ -1,0 +1,12 @@
+,name,count
+0,DNS lookup,56
+1,block_from,36
+2,block_to,11
+3,browser,51
+4,contacts,65
+5,flow_search,49
+6,mails_received_from,47
+7,mails_sent_to,39
+8,sharing_system,10
+9,unblock_from,4
+10,unblock_to,3

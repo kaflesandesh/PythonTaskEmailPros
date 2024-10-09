@@ -1,0 +1,18 @@
+{"inject_category_id": 0, "name": "Introductory inject", "auto": true, "email": false, "time": 0, "delay": 0}
+{"inject_category_id": 1, "name": "Freemail phishing report", "auto": true, "email": true, "time": 15, "delay": 0}
+{"inject_category_id": 2, "name": "User phishing report", "auto": true, "email": true, "time": 20, "delay": 0}
+{"inject_category_id": 3, "name": "User's complaint", "auto": true, "email": true, "time": 25, "delay": 0}
+{"inject_category_id": 4, "name": "Freemail phishing report reminder", "auto": true, "email": true, "time": 45, "delay": 0}
+{"inject_category_id": 5, "name": "One minute left reminder", "auto": true, "email": false, "time": 74, "delay": 0}
+{"inject_category_id": 6, "name": "Exercise over", "auto": true, "email": false, "time": 75, "delay": 0}
+{"inject_category_id": 7, "name": "Response from kathy@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 8, "name": "Response from lisa.grant@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 9, "name": "Response from peter.quinn@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 10, "name": "Response from doe@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 11, "name": "Response from jane.taylor@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 12, "name": "Response from cloud@uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 13, "name": "Response from harris@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 14, "name": "Response from dpo@mail.uni.ex", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 15, "name": "Response from instructors@help.com", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 16, "name": "Response from security team of FREEMAIL (abuse@freemail.ex)", "auto": false, "email": true, "time": 0, "delay": 0}
+{"inject_category_id": 17, "name": "Response from it_department@mail.ex", "auto": false, "email": true, "time": 0, "delay": 0}
