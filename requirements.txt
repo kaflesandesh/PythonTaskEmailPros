@@ -1,5 +1,7 @@
-transformers
-torch
-gitpython
-jsonlines
-textblob
+# transformers
+# torch
+# gitpython
+# jsonlines
+# textblob
+# matplotlib
+# sentencepiece

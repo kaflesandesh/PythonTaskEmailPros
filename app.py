@@ -1,5 +1,7 @@
-import json
-from transformers import pipeline, T5ForConditionalGeneration, T5Tokenizer
+from git_clone_merge import git_clone_merge
+from analyze import analyze
 
 # print("Hello Friends!")
- 
+if __name__ == "__main__":
+    git_clone_merge()
+    analyze()

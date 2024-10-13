@@ -9,3 +9,7 @@ pip install -r requirements.txt
 
 # to run app 
 python app.py
+
+## The project contains two main functionalities:
+### git-clone-merge.py > Cloning the Git repository to extract email files and merging them into a single file for further processing.
+### analyze.py > Analyzing the file to extract name, summarize mail contents, and derive sentiments.
