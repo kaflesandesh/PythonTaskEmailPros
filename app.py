@@ -3,5 +3,5 @@ from analyze import analyze
 
 # print("Hello Friends!")
 if __name__ == "__main__":
-    # git_clone_merge()
+    git_clone_merge()
     analyze()

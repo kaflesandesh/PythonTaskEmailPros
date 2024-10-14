@@ -90,11 +90,8 @@ def process_email_threads(input_file_path: str, output_file_path: str, summariza
 def analyze():
     input_file_path = 'all_emails.jsonl'
     output_file_path = 'results.jsonl'
-    
+
     # Load models for summarization and sentiment analysis
     summarization_pipeline, sentiment_pipeline = load_models()
     # Process the email threads using the loaded models
     process_email_threads(input_file_path, output_file_path, summarization_pipeline, sentiment_pipeline)
-
-if __name__ == "__main__":
-    analyze()
