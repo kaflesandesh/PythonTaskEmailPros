@@ -1,8 +1,0 @@
-{"inject_category_id": 49, "name": "Introductory inject", "auto": true, "email": false, "time": 0, "delay": 0, "organization": ""}
-{"inject_category_id": 50, "name": "Exercise finish time", "auto": true, "email": false, "time": 0, "delay": 0, "organization": ""}
-{"inject_category_id": 51, "name": "Freemail phishing report", "auto": true, "email": true, "time": 5, "delay": 0, "organization": ""}
-{"inject_category_id": 52, "name": "User phishing report", "auto": true, "email": true, "time": 10, "delay": 0, "organization": ""}
-{"inject_category_id": 53, "name": "User's complaint", "auto": true, "email": true, "time": 15, "delay": 0, "organization": ""}
-{"inject_category_id": 54, "name": "Freemail phishing report reminder", "auto": true, "email": true, "time": 35, "delay": 0, "organization": ""}
-{"inject_category_id": 55, "name": "One minute left reminder", "auto": true, "email": false, "time": 64, "delay": 0, "organization": ""}
-{"inject_category_id": 56, "name": "Exercise over", "auto": true, "email": false, "time": 65, "delay": 0, "organization": ""}

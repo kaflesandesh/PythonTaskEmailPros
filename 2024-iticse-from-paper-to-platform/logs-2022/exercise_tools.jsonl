@@ -1,9 +1,0 @@
-{"tool_id": 0, "name": "SHARE", "tooltip_description": null, "default_response": "DONE", "roles": ""}
-{"tool_id": 1, "name": "DNS", "tooltip_description": null, "default_response": "Website unreachable.", "roles": ""}
-{"tool_id": 2, "name": "VISIT", "tooltip_description": null, "default_response": "Website unreachable.", "roles": ""}
-{"tool_id": 3, "name": "WHO", "tooltip_description": null, "default_response": "Unknown address.", "roles": ""}
-{"tool_id": 4, "name": "SEARCH MAILS RECEIVED FROM", "tooltip_description": null, "default_response": "Invalid request, only known e-mail addresses are valid parameters.", "roles": ""}
-{"tool_id": 5, "name": "SEARCH MAILS SENT TO", "tooltip_description": null, "default_response": "Invalid request, only known e-mail addresses are valid parameters.", "roles": ""}
-{"tool_id": 6, "name": "BLOCK", "tooltip_description": null, "default_response": "Target IP address or email address was not found", "roles": ""}
-{"tool_id": 7, "name": "UNBLOCK", "tooltip_description": null, "default_response": "Target IP address or email address was not found", "roles": ""}
-{"tool_id": 8, "name": "WHICH", "tooltip_description": null, "default_response": "No IPs visited this website", "roles": ""}
