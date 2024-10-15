@@ -1,13 +1,13 @@
 ## PythonTaskEmailPros
-## to create the virtual environment and activate
+## To create the virtual environment and activate
 python -m venv venv
 venv\Scripts\activate
 ## On mac os, use `source venv/bin/activate`
 
-## install dependencies
+## Install dependencies (uncomment if the lines are commentd or add dependencies to the file and re-run the following line)
 pip install -r requirements.txt
 
-## to run app 
+## To run app 
 python app.py
 
 ## The project contains two main functionalities:

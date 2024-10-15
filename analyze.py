@@ -1,19 +1,17 @@
 import json
 import logging
-from transformers import pipeline, T5ForConditionalGeneration, T5Tokenizer
+from transformers import pipeline
 from typing import List, Tuple, Dict
 
-# Set up logging
+# Set up logging - it tracks prcessing of every thread in all emails file
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load Hugging Face model for summarization and sentiment analysis
 def load_models() -> Tuple[pipeline, pipeline]:
     # Let the pipeline handle model and tokenizer loading
     summarization_pipeline = pipeline("summarization", model="google/flan-t5-small")
-    
     # Explicitly specify the sentiment analysis model
     sentiment_pipeline = pipeline("sentiment-analysis", model="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
-    
     return summarization_pipeline, sentiment_pipeline
 
 # Extract names from the description field
@@ -50,7 +48,7 @@ def analyze_sentiment(sentiment_pipeline, emails: List[Dict]) -> str:
         logging.error(f"Error analyzing sentiment: {e}")
         return 'Neutral'
 
-# Process the logs and use the LLM for tasks
+# Process the logs and use the LLM
 def process_email_threads(input_file_path: str, output_file_path: str, summarization_pipeline, sentiment_pipeline):
     try:
         with open(input_file_path, 'r') as f, open(output_file_path, 'w') as output_file:
@@ -68,7 +66,7 @@ def process_email_threads(input_file_path: str, output_file_path: str, summariza
                     # Analyze the sentiment of the email thread
                     sentiment = analyze_sentiment(sentiment_pipeline, emails)
                     
-                    # Write results to file
+                    # Results to file
                     output_data = {
                         'thread_id': thread_id,
                         'name': name,
@@ -86,7 +84,7 @@ def process_email_threads(input_file_path: str, output_file_path: str, summariza
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
 
-# Main function to kick off the analysis
+
 def analyze():
     input_file_path = 'all_emails.jsonl'
     output_file_path = 'results.jsonl'
