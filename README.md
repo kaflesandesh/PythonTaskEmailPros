@@ -1,6 +1,7 @@
 ## PythonTaskEmailPros
 ## To create the virtual environment and activate
 python -m venv venv
+
 venv\Scripts\activate
 ## On mac os, use `source venv/bin/activate`
 
